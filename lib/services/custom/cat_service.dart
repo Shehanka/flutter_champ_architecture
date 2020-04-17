@@ -1,7 +1,7 @@
 import 'package:flutter_champ_architecture/models/cat.dart';
 import 'package:flutter_champ_architecture/services/super_service.dart';
 
-class CatService extends SuperService<Cat, String, Stream>{
+class CatService extends SuperService<Cat, String, Stream> {
   @override
   Future<Cat> create(Cat t) {
     return null;

@@ -18,7 +18,7 @@ class Cat {
   int get age => _age;
   String get type => _type;
 
-  Map<String, dynamic> toMap(){
+  Map<String, dynamic> toMap() {
     var map = new Map<String, dynamic>();
     if (_id != null) {
       map['id'] = _id;
@@ -29,7 +29,7 @@ class Cat {
 
     return map;
   }
-  
+
   Cat.fromMap(Map<String, dynamic> map) {
     this._id = map['id'];
     this._name = map['name'];
